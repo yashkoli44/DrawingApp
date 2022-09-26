@@ -266,17 +266,15 @@ class MainActivity : AppCompatActivity() {
             finish()
         } else {
             val dialog = androidx.appcompat.app.AlertDialog.Builder(this)
-                dialog.setTitle("Save?")
+            dialog.setTitle("Save?")
                 .setMessage("Do you want to save image?")
                 .setPositiveButton("Wait") { d, which ->
                     d.dismiss()
                 }
                 .setNegativeButton("Don't Save"){
-                    _, _->
+                        _, _->
                     finishAffinity()
-                }
                 }.show()
-
         }
     }
 
