@@ -1,3 +1,3 @@
 package com.projects.drawingapp
 
-class DemoClass{}
+class DemoClass{git}
